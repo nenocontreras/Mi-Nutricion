@@ -33,6 +33,11 @@ Las rutas son relativas: funciona también dentro de una subcarpeta.
 - **Sitios distintos o teléfono nuevo:** en Mi Progreso → Ajustes → *Exportar mis datos*;
   en Mi Nutrición → Ajustes → *Importar copia de seguridad*. La importación **fusiona**: no borra nada.
 
+## Registro diario automático (planilla + iPhone)
+En [`automatizacion/`](automatizacion/README.md): un Apps Script y un Atajo de iPhone que pasan los
+pasos (Apple Salud) y las calorías y la proteína (MyFitnessPal, vía Salud) a la hoja `Diario` del Plan
+Fitness Transformación. Todas las noches a las 22:00 te pregunta lo que falta.
+
 ## Actualizar
 Al publicar cambios, sube el número de caché en `sw.js` (`mi-nutricion-v2` → `v3`).
 

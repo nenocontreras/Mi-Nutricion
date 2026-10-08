@@ -1,0 +1,8 @@
+{
+  "name": "registro-diario-automatico",
+  "private": true,
+  "description": "Pruebas del Apps Script que sincroniza Salud/MyFitnessPal con la planilla Plan Fitness Transformación",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
