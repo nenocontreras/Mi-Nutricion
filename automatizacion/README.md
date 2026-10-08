@@ -54,8 +54,14 @@ falta.
 ## Instalación (≈ 30 min, una sola vez)
 
 ### 1. MyFitnessPal → Salud
-App **Salud** → tu foto → **Apps** → **MyFitnessPal** → activá *Energía alimentaria* y *Proteínas*
-(opcional: *Peso* y *Agua*). Si no aparece, conectalo desde MFP (*Ajustes* o *Apps y dispositivos* → **Apple Salud**, según la versión).
+El orden importa: **primero en MyFitnessPal, después en Salud.** iOS sólo muestra en Salud los datos
+que la app ya pidió. Si empezás por Salud, en MyFitnessPal vas a ver únicamente «Sueño».
+1. En **MyFitnessPal**: activá la conexión con **Apple Salud** (en *Ajustes* o *Apps y dispositivos*,
+   según la versión) y marcá los datos de nutrición.
+2. En **Salud**: tu foto → **Apps** → **MyFitnessPal** → verificá que estén activas *Energía alimentaria*
+   y *Proteínas* (opcional: *Peso* y *Agua*).
+3. Comprobá: abrí MFP, después Salud → buscá *Energía alimentaria*. El número de hoy tiene que coincidir.
+
 MFP escribe en Salud cuando la app sincroniza: si cargás comidas desde la web, abrí la app del iPhone
 antes de las 22:00.
 

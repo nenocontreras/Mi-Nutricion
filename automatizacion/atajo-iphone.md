@@ -140,7 +140,7 @@ La primera vez iOS te pide permiso para leer Salud: aceptá **Pasos, Energía al
 | Síntoma | Causa probable |
 |---|---|
 | `Token inválido` | Token mal copiado (sin espacios) o volviste a crear el proyecto. `mostrarToken()` lo muestra. |
-| Las calorías no llegan | MyFitnessPal no escribe en Salud: Salud → tu perfil → Apps → MyFitnessPal → activá *Energía alimentaria* y *Proteínas*. Abrí MFP una vez: sincroniza cuando la app corre. |
+| Las calorías no llegan | MyFitnessPal no escribe en Salud. Activá la conexión primero en MFP (si no, Salud sólo muestra «Sueño») y después, en Salud → tu perfil → Apps → MyFitnessPal, verificá *Energía alimentaria* y *Proteínas*. Abrí MFP una vez: sincroniza cuando la app corre. |
 | `rechazados: kcal … fuera de rango` | Salud está en kilojulios. El script convierte si el texto dice «kJ»; si no, cambiá la unidad en Salud a kcal. |
 | El Atajo corre pero no lee Salud | iOS no deja leer Salud con el iPhone bloqueado. Desbloquealo y tocá la notificación. Igual, la corrida de la noche siguiente completa los pasos y las calorías de ayer. |
 | Cambiaste el código y no se nota | Apps Script → Implementar → Administrar implementaciones → editar → **Nueva versión**. |
